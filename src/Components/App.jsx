@@ -34,10 +34,10 @@ export default class App extends Component {
 
     render() {
         return (
-            <React.StrictMode>
-                <h1>Hello</h1>
-                <Gallery info={this.state}/>
-            </React.StrictMode>
+                <div className={"App no-mg-pd"}>
+                    <h1 className={"no-mg-pd"}>Hello</h1>
+                    <Gallery info={this.state}/>
+                </div>
             // <Router>
             //     <Switch>
             //
